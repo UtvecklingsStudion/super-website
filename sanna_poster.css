@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&display=swap");
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    font-family: Fira Sans, sans-serif;
+    background: rgb(12, 12, 12);
+    font-size: 25px;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.button-nav{
+    position:absolute;
+    left: 30px;
+    top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display : flex;
+    height : 100vh;
+    gap : 25px;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.container-2-big-picture
+{
+    width: 100%;
+    height: 100vh;
+    display : flex;
+    height : 100vh;
+    gap : 25px;
+    justify-content: center;
+    margin-bottom: 200px;
+ 
+}
+[class ^="box-"]{
+    width: 312px;
+    height: 624px;
+    font-size: 65px;
+    position: relative;
+}
+
+.bigbox{
+    width: 484px;
+    height: 770px;
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 65px;
+    position: relative;
+}
+
+.head-picture-ninja
+{
+    width: 100%;
+    margin-bottom: 70px;
+    position: relative;
+}
+.poster-picture
+{
+    width: 312px;
+}
+.big-poster-picture
+{
+    width: 484px;
+}
+.button-oh-money
+{
+background-color:  #E83F57;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+border: none;
+color: #FFFFFF;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 4px;
+position: absolute;
+bottom: 60px;
+left: 0px;
+}
+.button-oh-money:hover
+{
+    background-color: #861d2b;
+}
+
+.big-button-oh-money
+{
+background-color:  #E83F57;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 14px;
+display: flex;
+align-items: center;
+border: none;
+color: #FFFFFF;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+border-radius: 4px;
+margin-left: 20px;
+position: absolute;
+bottom: 20px;
+left: 5px;
+}
+
+.big-button-oh-money:hover
+{
+    background-color: #861d2b;
+}
+.title-poster{
+    font-size: 34px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+}
+.big-title-poster{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    padding-top: 25px;
+
+}
+.description-poster{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 2px;
+}
+.big-description-poster{
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+}
+.container-footer{
+    background-color: rgba(255,255,255,0.2);
+    height: 320px;
+    width: 100%;
+    left: 0px;
+    display : flex;
+    gap : 1px;
+    justify-content: left;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 280px;
+    margin-top: 80px;
+
+}
+.footer-text-1{
+    z-index: 200;  
+    width: 450px;
+    
+}
+.footer-text-2{
+    z-index: 200;  
+    width: 550px;
+}
+.footer-text-3{
+    z-index: 200;  
+    width: 600px;
+}
+
+
+.footer-text-3-2{
+    z-index: 200;  
+
+    width: 600px;
+    display: flex;
+}
+.title-in-footer{
+    margin-bottom: 20px;
+}
+.text-in-footer{
+   font-size: 16px;
+   font-weight: 300;
+}
+.icon-picture{
+    margin-right: 10px;
+}
+.address-in-footer{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+}
