@@ -135,7 +135,7 @@ left: 5px;
 .big-title-poster{
     font-size: 40px;
     font-weight: bold;
-    color: black;
+    color: rgb(12, 12, 12);
     padding-left: 20px;
     padding-top: 25px;
 
@@ -151,7 +151,7 @@ left: 5px;
 .big-description-poster{
     font-size: 18px;
     font-weight: 200;
-    color: black;
+    color: 12, 12, 12;
     padding-top: 20px;
     padding-bottom: 25px;
     margin-left: 20px;
