@@ -31,7 +31,7 @@ body
     height : 100vh;
     gap : 25px;
     justify-content: center;
-    background-color: black;
+    background-color: #861d2b;
 }
 .container-2-big-picture
 {
@@ -54,7 +54,7 @@ body
 .bigbox{
     width: 484px;
     height: 770px;
-    color: black;
+    color: 255, 255, 255;
     background-color: #FFFFFF;
     font-size: 65px;
     position: relative;
