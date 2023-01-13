@@ -1,0 +1,416 @@
+
+/*Första media-query är för mobil*/
+@media screen and (max-width: 576px){
+.d4-body{
+    padding: none;
+    margin: none;
+}
+/*Övre containern i ljusblått*/
+.d4-header{
+    width: 100%;
+    height: 80vw;
+    background-color: #C7DDEA;
+    position: relative;    
+}
+
+/*Oh hello there!*/
+.d4-headertext{
+    width: 59%;
+    line-height: 1;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 45px;
+    margin-left: 17px;
+    font-weight: 900;
+    padding-top: 20%;
+    margin-top: 0px;
+
+}
+/*Text-rutor att skriva i*/
+input[type=text], select {
+    width: 92%;
+    padding: 12px 20px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+    border-radius: 1px;
+    box-sizing: border-box;
+  }
+/*Placeholder*/
+  .d4-text-box2-mail{
+    width: 92%;
+    display: block;
+    border: none;
+    border-radius: 1px;
+    height: 170px;
+    margin-bottom: 30px;
+ }
+  
+/*Rubrik till rutorna man kan skriva i*/
+  
+  .d4-text-box-tag{
+    font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 6%;
+    }
+/*Knapp, send message*/
+.d4-button2{
+    width: 131px;
+    height: 39px;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-bottom: 33%;
+    margin-top: 8%;
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 6px 0;
+}
+/*Knapp, send message*/
+.d1-button:hover{
+    box-shadow: none;
+}
+/*man-bebis-bild*/
+.d4-picture-1{
+    display: block;
+  height: 80vw;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+}
+
+/*Container bakgrund grå mittenpartiet*/
+.d4-box1{
+    background-color: #A9A19E;
+    position: relative;
+}
+
+
+/*Text, Whats on your mind*/
+.d4-text-header1{
+    
+    width: 343px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 42px;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 900;
+    color: white;
+}
+
+/*Gula rutan, Come visit us*/
+.d4-box2
+{
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    background-color:#FAB131;
+    position: absolute;
+    margin-left: 22px;
+    margin-top: -105%;
+    
+}
+/*Container med karta och gul ruta*/
+.d4-middle-part{
+width: 100%;    
+}
+
+/*Text, Come visit us*/
+.d4-text-header2{  
+    width: 343px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 44px;
+    margin: auto;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+/*adress*/
+.d4-text-small{
+    font-family: "Fira Sans",'Arial';
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 34px;
+    line-height: 2;
+    padding-bottom: 10px;
+    color: white;
+}
+/*Kart-bild*/
+.d4-picture-2{
+    display: block;
+    height: 80vw;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+/*Navbar desktop*/
+.d4-grid-container-desktop{
+    display: none;  
+} 
+/*Navbar mobile*/
+.d4-grid-container-mobile {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: grey;
+    height: 13vh;
+  }
+  
+/*Items in navbar mobile*/
+.d4-grid-container-mobile > div {
+    background-color: white;
+    text-align: center;
+    font-family: "Fira sans", sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+   
+  }
+  a{
+    background-color: white;
+    text-align: center;
+    font-family: "Fira sans", sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+   
+  }
+/*hover Items in navbar mobile*/
+.d4-grid-container-mobile > div:hover {
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+  
+  }
+/*Grå tomt fält längst ner på desktopsidan*/
+.d1-footer{
+    display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 577px){
+    .d4-body{
+        padding: none;
+        margin: none;
+    }
+    .d1-footer{
+        height: 500px;
+        width: 100%;
+        background-color: gray;
+    } 
+    .d4-container{
+        margin: none;
+    }
+    .d4-header{
+        width: 100%;
+        height: 450px;
+        background-color: #C7DDEA;  
+        position: relative;
+    }
+    
+    .d4-headertext{
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 85px;
+        font-weight: 900;
+        text-align: center;
+        margin: auto;
+        padding-top: 130px;
+  
+    }
+    .d4-grid-container-mobile{
+        display: none;
+    }
+    .d4-grid-container-desktop {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 20%;
+        padding-right: 20%;
+
+      }
+      
+.d4-grid-container-desktop > div, a {
+        text-align: center;
+        font-family: "Fira sans", sans-serif;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      
+      }
+      
+.d4-grid-container-desktop > div:hover, a:hover {
+        background-color: rgb(236, 236, 236);
+        font-weight: bold;
+
+      
+      }
+    input[type=text], select {
+        width: 92%;
+        padding: 12px 20px;
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        display: block;
+        border: none;
+        border-radius: 1px;
+        box-sizing: border-box;
+      }
+    
+      .d4-text-box2-mail{
+        width: 92%;
+        display: block;
+        border: none;
+        border-radius: 1px;
+        height: 170px;
+        margin-bottom: 30px;
+     }
+      
+    
+      
+      .d4-text-box-tag{
+        font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        padding-left: 6%;
+        }
+      .d4-text-box{
+        width: 35%;
+        display: inline-block;
+        padding-top: 5%;
+
+      }  
+    
+    .d4-button2{
+        width: 161px;
+        height: 39px;
+        border: none;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 77%;
+        margin-bottom: 5%;
+        margin-top: 8%;
+        border-radius: 19px;
+        opacity: 0.8;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 3px 6px 0;
+    }
+    .d1-button:hover{
+        box-shadow: none;
+    }
+    .d4-picture-1{
+        display: block;
+        height: 90%;
+        position: absolute;
+        bottom: 0px;
+        right: 5%;
+    }
+ 
+    .d4-picture-2{
+    
+        position: relative;
+        width: 100%; 
+        height: 700px;
+        object-fit: cover;
+       
+    }
+    
+    .d4-box1{
+        background-color: #A9A19E;
+ 
+    }
+ 
+    .d4-box2
+    {
+        width: 25%;
+        height: 250px;
+        margin: auto;
+        background-color:#FAB131;
+        position: absolute;
+        margin-left: 120px;
+        margin-top: -650px;
+        
+    }
+    .d4-text-header1{
+       
+        width: 25%;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 55px;
+        padding-right: 15%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        font-weight: 900;
+        color: white;
+        display: inline-block;
+    }
+   
+    
+    .d4-contact-address{
+        height: 80px;
+        background-color: #FAB131;
+    }
+    .d4-text-header2{
+        width: 343px;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 44px;
+        margin: auto;
+        font-weight: 900;
+        color:white;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .d4-text-small{
+        font-family:'Arial';
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 100px;
+        line-height: 2;
+        padding-bottom: 10px;
+        color: white;
+        opacity: 1;
+    }
+    
+    .d1-box-bottom{
+       
+        height: 1fr;
+        width: 100%;
+    }
+    
+
+    .d4-grid-container-desktop {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 20%;
+        padding-right: 20%;
+       
+      }
+      
+.d4-grid-container-desktop > div {
+        text-align: center;
+        font-family: "Fira sans", sans-serif;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+      }
+      
+.d4-grid-container-desktop > div:hover {
+        background-color: rgb(236, 236, 236);
+        font-weight: bold;
+      
+      }
+    
+ 
+
+}
+        
+
+

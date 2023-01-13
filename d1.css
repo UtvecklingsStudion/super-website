@@ -1,0 +1,721 @@
+
+@media screen and (max-width: 576px){
+    .d1-body{
+        padding: none;
+        margin: none;
+    }
+    
+    .d1-header{
+        width: 100%;
+        height: 77vh;
+        background-color: #C7DDEA;
+        padding-top: 71px;
+        position: relative;    
+    }
+    
+    .d1-headertext{
+        width: 343px;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 45px;
+        margin-left: 17px;
+        font-weight: 900;
+    
+    }
+    
+    .d1-text{
+        width: 343px;
+        height: 103px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 17px;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    
+    .d1-button{
+        width: 131px;
+        height: 39px;
+        border: none;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 18px;
+        border-radius: 19px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 3px 6px 0;
+    }
+    .d1-button:hover{
+        box-shadow: none;
+    }
+    .d1-picture-1{
+        display: block;
+        width: 90%;
+        position: absolute;
+        bottom: 0px;
+        right: 5%;
+    }
+    .d1-box1, .d1-box2
+    {
+        width: 100%;
+        height: 320px;
+        background-color: #F17949;
+    }
+    
+    .d1-box2
+    {
+        background-color: #FAB131;
+    }
+    
+    .d1-text-small{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        opacity: 50%;
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 10px;
+    
+    
+    }
+    .d1-text-header{
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    
+    }
+    .d1-box-bottom{
+       
+        height: 1fr;
+        width: 100%;
+    }
+    
+    .d1-nav-bar{
+    width: 100%;
+    height: 20vw;
+    
+    display: flex;
+    
+    
+    }
+    .d1-nav-box{
+        width: 40%;
+       
+    }
+    .d1-grid-container-desktop{
+        display: none;
+        
+    } 
+    .d1-grid-container-mobile {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: grey;
+        height: 13vh;
+       
+      }
+      
+      .d1-grid-container-mobile > div {
+        background-color:white;
+        text-align: center;
+        font-family: "Fira sans", sans-serif;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+      }
+      
+      .d1-grid-container-mobile > div:hover {
+        background-color: rgb(236, 236, 236);
+        font-weight: bold;
+      
+      }
+    
+    
+        
+        a {
+        background-color:white;
+        text-align: center;
+        font-family: "Fira sans", sans-serif;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: black;
+    
+        }
+    
+        a:hover {
+        background-color: rgb(236, 236, 236);
+        font-weight: bold;
+    
+        }
+    
+    }
+@media screen and (min-width: 577px){
+    .d1-header { grid-area: left-doubble; }
+    .d1-box1 { grid-area: right-up; }
+    .d1-box2 { grid-area: right-down; }
+
+
+    .d1-container {
+  display: grid;
+  grid-template-areas:
+    'left-doubble right-up'
+    'left-doubble right-down';
+}
+
+.d1-header{    
+    height: 89vh;
+    width:50vw;
+    background-color: #C7DDEA;
+    position: relative;    
+}
+.d1-picture-1{
+    display: block;
+    height: 52%;
+    position: absolute;
+    bottom: 0px;
+    right: 2%;
+}
+
+.d1-headertext{
+    width: 65%;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 4rem;
+    padding-top: 65px;
+    margin-left: 16%;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+.d1-text{
+    width: 48%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: 100;
+    margin-left: 16%;
+    opacity: 0.8;
+    font-weight: 500;
+
+}
+
+.d1-button{
+    width: 131px;
+    height: 39px;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 17%;
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 6px 0;
+}
+.d1-button:hover{
+    box-shadow: none;
+}
+
+.d1-box1, .d1-box2
+{
+    background-color: #F17949;
+    width:50vw;
+}
+
+.d1-box2
+{
+    background-color: #FAB131;
+}
+
+.d1-text-small{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 50%;
+    text-align: center;
+    padding-top: 16%;
+    padding-bottom: 10px;
+
+
+}
+.d1-text-header{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+
+    padding: auto;
+
+}
+.d1-nav-bar{
+        width: 100%;
+        height: 20vw;
+        background-color: aqua;
+        display: flex;
+        
+        
+        }
+.d1-nav-box{
+            width: 40%;
+           
+        }
+.d1-grid-container-mobile{
+    display: none;
+    
+}        
+.d1-grid-container-desktop {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding-left: 20%;
+            padding-right: 20%;
+
+          }
+          
+.d1-grid-container-desktop > div {
+            text-align: center;
+            font-family: "Fira sans", sans-serif;
+            font-size: 14px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    
+          
+          }
+          
+.d1-grid-container-desktop > div:hover {
+            background-color: rgb(236, 236, 236);
+            font-weight: bold;
+    
+          
+          }
+        
+
+
+}
+@media screen and (max-width: 576px) {
+    .M3body{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding:0;
+    margin:0;
+    float: left;
+}
+.M3Footer{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding:0;
+    margin:0;
+    float: left;
+}
+.M3H1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+}
+.M3H2{
+    margin-top: 0px;
+    color: gray;
+    text-align: start;
+}
+.M3P{
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+}  
+
+@media screen and (max-width: 1000px) and (min-width: 577px) {
+    .M3body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    }
+    .M3Footer{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding:0;
+    margin:0;
+    float: left;
+    }
+    .M3H1{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 50px;
+    }
+    .M3H2{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: gray;
+    text-align: start;
+    font-size: 30px;
+    }
+    .M3P{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 25px;
+    }
+    .M3A{
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    font-size: 40px;
+    }
+    .M3Up{
+    margin-top: 0px; 
+    padding-bottom: 20px;
+    font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .M3body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    }
+    .M3Footer{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding:0;
+    margin:0;
+    float: left;
+    }
+    .M3H1{
+    font-size: 90px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+    .M3H2{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: gray;
+    text-align: start;
+    font-size: 50px;
+    }
+    .M3P{
+    padding-top: 20%;
+    padding-bottom: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+    }
+    .M3A{
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    font-size: 80px;
+    }
+    .M3Up{
+    margin-top: 0px; 
+    padding-bottom: 20px;
+    font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .m2Main{
+    height: 100%;
+    display: flex;
+    flex: 3     1;
+    flex-direction: row ;
+    background: rgba(169, 161, 158, 1);
+    }
+    .m2Gray
+    {
+        display: flex;
+        align-items: center;
+        background:rgba(169, 161, 158, 1); 
+    }
+
+    .m2Title1
+    {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 0px;
+        margin-right: 16px !important;
+        margin-left: 16px !important;
+    }
+
+    .m2Text1
+    {
+        padding-bottom: 45px;
+    }
+
+    .m2Article
+    {
+    width:auto;
+    }
+
+    .m2GrayGrid
+    {
+        align-items: center !important;
+    }
+
+    .m2GrayText
+    {
+        display: grid;
+        grid-template-columns: none !important;
+        grid-template-rows: auto;
+        justify-content: center; 
+    }
+
+    .m2CharacterGrid
+    {
+        align-items: center;
+        background: linear-gradient(
+            to top,
+            rgba(169, 161, 158, 1) 0%,
+            rgba(169, 161, 158, 1) 50%,
+            rgba(169, 161, 158, 1) 50%,
+            rgba(169, 161, 158, 1) 100%
+          )!important;
+        margin-bottom: 20%;
+        grid-template-rows: repeat(3, minmax(300px, 1fr));
+        grid-template-columns: none !important;
+    }
+
+    
+    .m2button
+    {
+        display:none;
+    }
+
+    .m2ButtonArea
+    {
+        display:none;  
+    }
+
+    .m2OrangeDescription
+    {
+        width: 80% !important;
+    }
+}
+
+
+.m2Main
+{   
+    flex: 3 1;
+    display: flex;
+    flex-direction:column;
+}
+
+.m2Gray
+{   
+    display: flex;
+    background:rgba(169, 161, 158, 1); 
+}
+
+.m2Orange
+{ 
+    display: flex;  
+    background: rgba(250, 177, 49, 1);
+    align-items: center;
+    text-align: center;
+}
+
+.m2GrayGrid
+{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.m2GrayText
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.m2Title1
+{
+    position:relative;
+    color:white;    
+    font-size: 45px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 900;    
+    margin-top: 16px;
+}
+
+.m2Title2
+{
+margin:0;
+}
+
+.m2Text1
+{
+    position:relative;
+    margin-right: 16px;
+    margin-left: 16px;  
+    font-size: 14px;
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 1000;   
+    color : #00000099;
+}
+
+.m2Button
+{
+    position: relative;
+    border-radius: 100px;
+    width: 131px;
+    height:39px;
+    border: none;
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
+
+.m2CharacterGrid
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 34px;
+    background: linear-gradient(
+        to top,
+        rgba(250, 177, 49, 1) 0%,
+        rgba(250, 177, 49, 1) 50%,
+        rgba(169, 161, 158, 1) 50%,
+        rgba(169, 161, 158, 1) 100%
+      );
+}
+
+.m2Character
+{
+width:256px;
+height:334px;
+}
+
+.m2CharacterPortrait
+{   
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    height: 150px;
+    width: 236px;
+    background: rgba(199, 221, 234, 1);
+    border-radius: 4px;
+    overflow:hidden;
+}
+
+.m2CharacterInformation
+{
+    margin-top: 26px;
+    margin-bottom: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 256px;
+    height: 308px;
+    background: white;
+    border-radius: 5px  ;
+}
+
+.m2CharacterName
+{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    display: flex;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 145px;
+}
+
+.m2CharacterDescription
+{
+font-size: 11px;
+color: rgba(0, 0, 0, 0.4);
+font-family: 'Fira Sans', sans-serif;
+margin-top: 0px;
+font-weight: 700;
+line-height: 18px;
+padding:21px;
+padding-bottom: 27px;
+padding-top:0px;
+}
+
+.m2CharacterImage
+{
+    position:relative;
+    width: 96px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;   
+}
+
+.m2CharacterImage3
+{
+    position:relative;
+    width: 126px;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.m2OrangeText
+{
+margin: auto;
+flex-direction:column;
+display:flex;
+align-items: center;
+text-align: center;
+padding-bottom: 100px;
+}
+
+.m2OrangeTitle
+{
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;  
+    color: #FFFFFF;
+}
+
+.m2OrangeDescription
+{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    height: 100%;
+    width: 50%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color:      rgba(0, 0, 0, 0.6);
+}
